@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import TodosList from "./components/TodosList";
+import EditTodo from "./components/EditTodo";
+import CreateTodo from "./components/CreateTodo"
+import logo from "./logo.svg"
 
 class App extends Component {
   render() {
